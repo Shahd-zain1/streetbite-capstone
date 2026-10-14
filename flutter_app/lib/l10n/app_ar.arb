@@ -1,0 +1,143 @@
+{
+  "@@locale": "ar",
+  "appName": "ستريت بايت",
+  "tagline": "أكل الشارع، أسرع وأسهل",
+  "loginTitle": "أهلاً بعودتك",
+  "loginSubtitle": "سجّل دخولك واكتشف وجبتك القادمة",
+  "emailLabel": "البريد الإلكتروني",
+  "passwordLabel": "كلمة المرور",
+  "confirmPasswordLabel": "تأكيد كلمة المرور",
+  "fullNameLabel": "الاسم الكامل",
+  "loginButton": "تسجيل الدخول",
+  "signUpButton": "إنشاء حساب",
+  "noAccountPrompt": "مستخدم جديد؟ أنشئ حساباً",
+  "signUpTitle": "أنشئ حسابك",
+  "signUpSubtitle": "انضم إلى ستريت بايت وابدأ الاستكشاف",
+  "nameRequired": "من فضلك أدخل اسمك الكامل",
+  "nameCapital": "يجب أن يبدأ الاسم بحرف كبير",
+  "emailRequired": "من فضلك أدخل بريدك الإلكتروني",
+  "emailInvalid": "أدخل بريداً إلكترونياً صالحاً",
+  "passwordRequired": "من فضلك أدخل كلمة المرور",
+  "passwordShort": "يجب ألا تقل كلمة المرور عن 6 أحرف",
+  "passwordMismatch": "كلمتا المرور غير متطابقتين",
+  "errNetwork": "لا يوجد اتصال بالإنترنت. تحقق من الشبكة وحاول مرة أخرى.",
+  "errTimeout": "استغرق الطلب وقتاً طويلاً. حاول مرة أخرى.",
+  "errServer": "خدمة الوجبات تواجه مشكلة حالياً. حاول لاحقاً.",
+  "errInvalidCredentials": "البريد الإلكتروني أو كلمة المرور غير صحيحة.",
+  "errEmailInUse": "هذا البريد الإلكتروني مسجّل بالفعل.",
+  "errWeakPassword": "كلمة المرور ضعيفة. جرّب كلمة أقوى.",
+  "errTooManyRequests": "محاولات كثيرة. انتظر قليلاً ثم حاول مرة أخرى.",
+  "errPermissionDenied": "ليس لديك صلاحية لتنفيذ هذا الإجراء.",
+  "errPaymentFailed": "فشلت عملية الدفع. حاول مرة أخرى.",
+  "errUnknown": "حدث خطأ ما. حاول مرة أخرى.",
+  "retry": "إعادة المحاولة",
+  "homeGreeting": "أهلاً، {name}",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSubtitle": "ماذا تشتهي اليوم؟",
+  "hotOffersTitle": "عروض ساخنة",
+  "allMealsTitle": "استكشف الوجبات",
+  "addToCart": "أضف إلى السلة",
+  "addedToCart": "تمت إضافة {name} إلى السلة",
+  "@addedToCart": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "favouriteAdd": "أضف إلى المفضلة",
+  "favouriteRemove": "إزالة من المفضلة",
+  "originLabel": "المنشأ: {area}",
+  "@originLabel": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    }
+  },
+  "instructionsTitle": "طريقة التحضير",
+  "priceFormat": "{amount} ج.م",
+  "@priceFormat": {
+    "placeholders": {
+      "amount": {
+        "type": "num",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "navHome": "الرئيسية",
+  "navVendors": "البائعون",
+  "navCart": "السلة",
+  "navProfile": "الملف الشخصي",
+  "toggleTheme": "تغيير المظهر",
+  "switchLanguage": "English",
+  "cartTitle": "سلتك",
+  "cartEmpty": "سلتك فارغة",
+  "cartBecameEmpty": "أصبحت السلة فارغة",
+  "removeFromCart": "إزالة من السلة",
+  "quantityLabel": "الكمية: {count}",
+  "@quantityLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "totalLabel": "الإجمالي",
+  "paymentMethodTitle": "طريقة الدفع",
+  "payCash": "نقداً",
+  "payCard": "بطاقة",
+  "placeOrder": "تأكيد الطلب",
+  "orderPlaced": "تم تقديم الطلب بنجاح",
+  "nearbyVendors": "البائعون القريبون",
+  "vendorSnippet": "{cuisine} · التقييم {rating}",
+  "@vendorSnippet": {
+    "placeholders": {
+      "cuisine": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "num",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "profileTitle": "ملفك الشخصي",
+  "changePhoto": "تغيير الصورة",
+  "deviceTitle": "تفاصيل الجهاز",
+  "androidVersion": "أندرويد {version} (SDK {sdk})",
+  "@androidVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "sdk": {
+        "type": "String"
+      }
+    }
+  },
+  "favouritesTitle": "المفضلة",
+  "noFavourites": "لا توجد مفضلات بعد. اضغط على القلب في أي وجبة لحفظها.",
+  "ordersTitle": "سجل الطلبات",
+  "noOrders": "لم تقدّم أي طلبات بعد.",
+  "orderItemsLabel": "العناصر: {count}",
+  "@orderItemsLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "signOut": "تسجيل الخروج",
+  "biometricReason": "تحقق من بصمتك لفتح ملفك الشخصي",
+  "biometricUnavailable": "المصادقة بالبصمة غير متاحة على هذا الجهاز.",
+  "biometricFailed": "فشل التحقق من البصمة. حاول مرة أخرى."
+}
