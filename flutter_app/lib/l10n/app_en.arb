@@ -1,0 +1,143 @@
+{
+  "@@locale": "en",
+  "appName": "StreetBite",
+  "tagline": "Street food, found fast",
+  "loginTitle": "Welcome back",
+  "loginSubtitle": "Log in to find your next bite",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "confirmPasswordLabel": "Confirm password",
+  "fullNameLabel": "Full name",
+  "loginButton": "Log in",
+  "signUpButton": "Sign up",
+  "noAccountPrompt": "New here? Create an account",
+  "signUpTitle": "Create your account",
+  "signUpSubtitle": "Join StreetBite and start exploring",
+  "nameRequired": "Please enter your full name",
+  "nameCapital": "The first letter of your name must be capital",
+  "emailRequired": "Please enter your email",
+  "emailInvalid": "Enter a valid email address",
+  "passwordRequired": "Please enter a password",
+  "passwordShort": "Password must be at least 6 characters",
+  "passwordMismatch": "Passwords do not match",
+  "errNetwork": "No internet connection. Check your network and try again.",
+  "errTimeout": "The request took too long. Please try again.",
+  "errServer": "The meal service is having trouble right now. Try again soon.",
+  "errInvalidCredentials": "Wrong email or password.",
+  "errEmailInUse": "This email is already registered.",
+  "errWeakPassword": "That password is too weak. Try a stronger one.",
+  "errTooManyRequests": "Too many attempts. Please wait a bit and try again.",
+  "errPermissionDenied": "You do not have permission to do that.",
+  "errPaymentFailed": "Payment failed. Please try again.",
+  "errUnknown": "Something went wrong. Please try again.",
+  "retry": "Try again",
+  "homeGreeting": "Hi, {name}",
+  "@homeGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSubtitle": "What are you craving today?",
+  "hotOffersTitle": "Hot Offers",
+  "allMealsTitle": "Explore meals",
+  "addToCart": "Add to cart",
+  "addedToCart": "{name} added to cart",
+  "@addedToCart": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "favouriteAdd": "Save to favourites",
+  "favouriteRemove": "Remove from favourites",
+  "originLabel": "Origin: {area}",
+  "@originLabel": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    }
+  },
+  "instructionsTitle": "Instructions",
+  "priceFormat": "{amount} EGP",
+  "@priceFormat": {
+    "placeholders": {
+      "amount": {
+        "type": "num",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "navHome": "Home",
+  "navVendors": "Vendors",
+  "navCart": "Cart",
+  "navProfile": "Profile",
+  "toggleTheme": "Switch theme",
+  "switchLanguage": "العربية",
+  "cartTitle": "Your cart",
+  "cartEmpty": "Your cart is empty",
+  "cartBecameEmpty": "Cart is now empty",
+  "removeFromCart": "Remove from cart",
+  "quantityLabel": "Qty: {count}",
+  "@quantityLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "totalLabel": "Total",
+  "paymentMethodTitle": "Payment method",
+  "payCash": "Cash",
+  "payCard": "Card",
+  "placeOrder": "Place order",
+  "orderPlaced": "Order placed successfully",
+  "nearbyVendors": "Nearby Vendors",
+  "vendorSnippet": "{cuisine} · Rating {rating}",
+  "@vendorSnippet": {
+    "placeholders": {
+      "cuisine": {
+        "type": "String"
+      },
+      "rating": {
+        "type": "num",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "profileTitle": "Your profile",
+  "changePhoto": "Change photo",
+  "deviceTitle": "Device details",
+  "androidVersion": "Android {version} (SDK {sdk})",
+  "@androidVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "sdk": {
+        "type": "String"
+      }
+    }
+  },
+  "favouritesTitle": "Favourites",
+  "noFavourites": "No favourites yet. Tap the heart on a meal to save it.",
+  "ordersTitle": "Order history",
+  "noOrders": "You have not placed any orders yet.",
+  "orderItemsLabel": "Items: {count}",
+  "@orderItemsLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "signOut": "Sign out",
+  "biometricReason": "Verify your fingerprint to open your profile",
+  "biometricUnavailable": "Fingerprint authentication is not available on this device.",
+  "biometricFailed": "Fingerprint verification failed. Please try again."
+}
