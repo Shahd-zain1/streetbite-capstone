@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "262511167470",
+    "project_id": "streetbite-476ff",
+    "storage_bucket": "streetbite-476ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262511167470:android:5cbd3f29bcda81703bf0ff",
+        "android_client_info": {
+          "package_name": "com.streetbite.streetbite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC82VO7cJEt2P7v-rOJIPx5WURdMhdVNXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
